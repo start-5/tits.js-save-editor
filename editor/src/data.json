@@ -1209,6 +1209,10 @@
     "DISCOUNT_SEXED_SURVIVAL_SHOP",
     "DiscoveredAncientData",
     "DISTRACTED_SHADE",
+    "DIV_GARD_DEFEAT_ROW",
+    "DIV_GARD_DEFEAT_SCENE",
+    "DIV_GARD_ENCOUNTER",
+    "DIV_GARD_TENTACLE",
     "DIZZY_ANAL",
     "DIZZY_BIZZY_ENCOUNTER",
     "DIZZY_BOUGHT",
@@ -3578,7 +3582,6 @@
     "NARC_DUNG_LOG_2_UNLOCKED",
     "NARC_DUNG_LOG_3_UNLOCKED",
     "NARC_DUNG_LOG_4_UNLOCKED",
-    "NARC_DUNG_LOGS",
     "NARC_DUNG_MET_REPLACEMENT",
     "NARC_DUNG_NEGATIVE_SEX",
     "NARC_DUNG_SECURITY_KEY",
@@ -8202,6 +8205,7 @@
         21,
         22,
         24,
+        30,
         42,
         43,
         44,
@@ -18945,6 +18949,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Cumcap",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 3,
+      "tooltip": "Sloppy mushrooms cockslap you with their oozing tips!",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "penis",
+      "iconShade": "var(--negativeColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Cumflation Immune",
       "value1": 0,
       "value2": 0,
@@ -22708,6 +22728,22 @@
       "storageName": "Gloved",
       "value1": 1,
       "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "",
+      "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Glowberry Regen Cooldown",
+      "value1": 1,
+      "value2": 1,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
@@ -29649,6 +29685,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Plagueblood Cooldown",
+      "value1": 5,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "",
+      "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Planted",
       "value1": 0,
       "value2": 0,
@@ -31900,6 +31952,22 @@
       "combatOnly": false,
       "iconName": "Icon_Poison",
       "iconShade": "var(--negativeColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Scorpion Tail Cooldown",
+      "value1": 2,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "",
+      "iconShade": "var(--textColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -34252,6 +34320,22 @@
       "combatOnly": false,
       "iconName": "Icon_LustUp",
       "iconShade": "var(--lowPriorityColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Stranglebound Stalks",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 4,
+      "tooltip": "Your evasion is reduced!\n\n-20 evasion",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "gears_down",
+      "iconShade": "var(--negativeColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -37534,10 +37618,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.136",
-  "build": 6266,
+  "version": "0.9.137",
+  "build": 6300,
   "counts": {
-    "flags": 6107,
+    "flags": 6110,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 58,
@@ -37582,12 +37666,12 @@
         "leg": 66,
         "tail": 55,
         "tongue": 40,
-        "vagina": 43,
+        "vagina": 44,
         "wing": 19
       }
     },
     "keyItems": 152,
     "perks": 274,
-    "statusEffects": 1404
+    "statusEffects": 1409
   }
 }
