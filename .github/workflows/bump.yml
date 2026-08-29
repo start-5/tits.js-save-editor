@@ -26,18 +26,18 @@ jobs:
           uses: actions/checkout@v4
 
         - name: Set up Node
-          uses: actions/setup-node@v4
+          uses: actions/setup-node@v7
           with:
             node-version: lts/*
             cache: 'npm'
             cache-dependency-path: ./generator/package-lock.json
-  
+
         - name: Install dependencies
           run: npm --prefix ./generator ci
-  
+
         - name: Build
           run: npm --prefix ./generator run build
-  
+
         - name: Run generator
           run: node ./generator/out/generator/src/main
 
@@ -45,7 +45,7 @@ jobs:
           run: |
             git config user.name start-5
             git config user.email 103078176+start-5@users.noreply.github.com
-  
+
         - name: Create pull request
           uses: peter-evans/create-pull-request@v7
           with:
