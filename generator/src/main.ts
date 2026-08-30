@@ -24,6 +24,7 @@ import {
   HairStyles,
   KeyItems,
   Perks,
+  Races,
   StatusEffects,
   ValidBodyPartFlags,
   ValidBodyPartTypes,
@@ -97,6 +98,7 @@ track('program', async function () {
       hairStyles: [],
       hairTypes: [],
       nippleTypes: [],
+      races: [],
       sexPrefs: [],
       skinTypes: [],
       upbringings: [],
@@ -157,6 +159,7 @@ track('program', async function () {
 
     KeyItems,
     Perks,
+    Races,
     StatusEffects,
 
     DamageTypes,

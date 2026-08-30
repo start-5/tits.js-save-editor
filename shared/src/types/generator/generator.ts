@@ -13,6 +13,7 @@ export type GeneratorResult = {
     hairStyles: SelectOptions<string>;
     hairTypes: SelectOptions<number>;
     nippleTypes: SelectOptions<number>;
+    races: SelectOptions<string>;
     sexPrefs: SelectOptions<number>;
     skinTypes: SelectOptions<number>;
     upbringings: SelectOptions<number>;

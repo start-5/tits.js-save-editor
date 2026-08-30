@@ -46,6 +46,7 @@ watch(
       <String v-model="game.character.short" label="Name" />
       <Select v-model="game.character.characterClass" :options="data.options.classes" label="Class" />
       <Select v-model="game.state.flags.PC_UPBRINGING" :options="data.options.upbringings" label="Upbringing" />
+      <Select v-model="game.character.originalRace" :options="data.options.races" label="Original Race" />
       <Number v-model="game.character.credits" label="Credits" :min="0" :step="1000" />
       <Number v-model="game.character.personality" label="Personality" :min="0" :max="100" :step="5" />
       <Number v-model="game.character.exhibitionismRaw" label="Exhibitionism" :min="0" :max="100" :step="5" />

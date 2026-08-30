@@ -8,6 +8,7 @@ import {
   MemberExpression,
   Node,
   ObjectExpression,
+  PrivateIdentifier,
   Property,
   SequenceExpression,
   SwitchStatement
@@ -109,6 +110,7 @@ export const isIdentifier = is<Identifier>('Identifier');
 export const isLiteral = is<Literal>('Literal');
 export const isMemberExpression = is<MemberExpression>('MemberExpression');
 export const isObjectExpression = is<ObjectExpression>('ObjectExpression');
+export const isPrivateIdentifier = is<PrivateIdentifier>('PrivateIdentifier');
 export const isProperty = is<Property>('Property');
 export const isSequenceExpression = is<SequenceExpression>('SequenceExpression');
 export const isSwitchStatement = is<SwitchStatement>('SwitchStatement');

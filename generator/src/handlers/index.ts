@@ -6,6 +6,7 @@ export { Globals } from '#src/handlers/Globals.js';
 export { HairStyles } from '#src/handlers/HairStyles.js';
 export { KeyItems } from '#src/handlers/KeyItems.js';
 export { Perks } from '#src/handlers/Perks.js';
+export { Races } from '#src/handlers/Races.js';
 export { StatusEffects } from '#src/handlers/StatusEffects.js';
 export { ValidBodyPartFlags } from '#src/handlers/ValidBodyPartFlags.js';
 export { ValidBodyPartTypes } from '#src/handlers/ValidBodyPartTypes.js';

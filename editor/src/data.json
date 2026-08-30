@@ -7551,6 +7551,76 @@
         "label": "Tentacled"
       }
     ],
+    "races": [
+      {
+        "value": "bothrioc",
+        "label": "Bothrioc"
+      },
+      {
+        "value": "galotian",
+        "label": "Galotian"
+      },
+      {
+        "value": "ganrael",
+        "label": "Ganrael"
+      },
+      {
+        "value": "gold myr",
+        "label": "Gold Myr"
+      },
+      {
+        "value": "half kui-tan",
+        "label": "Half Kui Tan"
+      },
+      {
+        "value": "half-ausar",
+        "label": "Half Ausar"
+      },
+      {
+        "value": "half-gryvain",
+        "label": "Half Gryvain"
+      },
+      {
+        "value": "half-kaithrit",
+        "label": "Half Kaithrit"
+      },
+      {
+        "value": "half-leithan",
+        "label": "Half Leithan"
+      },
+      {
+        "value": "half-suula",
+        "label": "Half Suula"
+      },
+      {
+        "value": "human",
+        "label": "Human"
+      },
+      {
+        "value": "laquine",
+        "label": "Laquine"
+      },
+      {
+        "value": "naleen",
+        "label": "Naleen"
+      },
+      {
+        "value": "nyrea",
+        "label": "Nyrea"
+      },
+      {
+        "value": "raskvel",
+        "label": "Raskvel"
+      },
+      {
+        "value": "rodenian",
+        "label": "Rodenian"
+      },
+      {
+        "value": "saurmorian",
+        "label": "Saurmorian"
+      }
+    ],
     "sexPrefs": [
       {
         "value": 0,
@@ -39935,6 +40005,7 @@
       "hairStyles": 32,
       "hairTypes": 8,
       "nippleTypes": 7,
+      "races": 17,
       "sexPrefs": 33,
       "skinTypes": 10,
       "upbringings": 6,
