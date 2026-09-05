@@ -130,6 +130,8 @@
     "AMBER_SHIPSEX_TALK",
     "AMBER_TALK_STAGE",
     "AMBER_TALKED_PAINTING",
+    "AMBER_TENTACLE_USAGES",
+    "AMBER_TENTAFEEDING",
     "AMBER_THROBB",
     "AMBER_TOTAL_KIDS",
     "AMBER_VISIT_HOLD",
@@ -1015,6 +1017,9 @@
     "CERIA_EARFUCKS",
     "CERIA_HYPERCUM_TIMER",
     "CERIA_MOUTH_FLOOD",
+    "CERULLEYAN_ALL_SEEN",
+    "CERULLEYAN_EPISODE",
+    "CERULLEYAN_INTRO",
     "CFS_HANGOUT_EVENT_PENDING",
     "CFS_HOLIDAY_SHOPPING",
     "CFS_TALKED_EIMEAR_REL",
@@ -2810,6 +2815,7 @@
     "KIRO_DEEPTHROATED_YOU",
     "KIRO_DISABLED_MINUTES",
     "KIRO_DRINKING_CONTEST_RESULTS",
+    "KIRO_FEEDING_TEN_TICKLES",
     "KIRO_FUCKED_DURING_RESCUE",
     "KIRO_FUCKED_PC",
     "KIRO_GF",
@@ -2843,6 +2849,9 @@
     "KIRO_SEX_PREV_LOCATION",
     "KIRO_SEXED_NOVA",
     "KIRO_SHIP_LOOTED",
+    "KIRO_TENTA_LOCALFEED_DELETED",
+    "KIRO_TENTA_SECFEED_DELETED",
+    "KIRO_TENTACLE_USAGES",
     "KIRO_TIMES_PC_VOLUNTEER_BLOWS",
     "KIRO_TOY_CUM_MOP",
     "KIRO_TRUST",
@@ -19541,6 +19550,22 @@
       "combatOnly": false,
       "iconName": "DefenseDown",
       "iconShade": "var(--negativeColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Countdown Till Kiro Tenta Email",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "",
+      "iconShade": "var(--textColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -39991,10 +40016,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.163",
-  "build": 7133,
+  "version": "0.9.164",
+  "build": 7139,
   "counts": {
-    "flags": 6463,
+    "flags": 6472,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 60,
@@ -40046,6 +40071,6 @@
     },
     "keyItems": 162,
     "perks": 279,
-    "statusEffects": 1512
+    "statusEffects": 1513
   }
 }
