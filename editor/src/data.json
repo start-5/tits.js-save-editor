@@ -3235,6 +3235,19 @@
     "MABBS_PURCHASES",
     "MAD_MEK_VICTORY",
     "MADE_RENVRA_BEG",
+    "MAGS_DISABLED_UNTIL_TS",
+    "MAGS_FACEFUCK",
+    "MAGS_FLIRT",
+    "MAGS_FUCKED",
+    "MAGS_GLORYHOLE_IDENTIFIED",
+    "MAGS_GLORYHOLE_INTRO",
+    "MAGS_MET",
+    "MAGS_SEX_INTRO",
+    "MAGS_STAGE",
+    "MAGS_TLK_CANADIA",
+    "MAGS_TLK_GH_WHY",
+    "MAGS_TLK_HER",
+    "MAGS_TLK_TF",
     "MAIKE_APPEARANCED",
     "MAIKE_BLUFF_BROKE",
     "MAIKE_BLUFF_PEN",
@@ -5675,6 +5688,7 @@
     "TAURFUCKED_DANE",
     "TEMPTRESS_PUSSVENOMED",
     "TENTACLE_CHAMBER_FEEDINGS",
+    "TENTACLE_CHAMBER_REMOVED",
     "TENTACLE_CHAMBER_USES",
     "TERENCE_FAUX_ANAL",
     "TERENCE_INTRO",
@@ -12914,8 +12928,8 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Fixed CumQ",
-      "value1": 4500,
-      "value2": 80085,
+      "value1": 5000,
+      "value2": 0,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
@@ -18733,6 +18747,22 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Blind",
+      "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Candy Striped",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "Your penis has been covered in lipstick rings by a lover. It has no effect… although looking at it pleasantly reminds you how it got to looking that way.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "lips_glossed",
       "iconShade": "var(--textColor)"
     },
     {
@@ -40016,10 +40046,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.164",
-  "build": 7139,
+  "version": "0.9.165",
+  "build": 7156,
   "counts": {
-    "flags": 6472,
+    "flags": 6486,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 60,
@@ -40071,6 +40101,6 @@
     },
     "keyItems": 162,
     "perks": 279,
-    "statusEffects": 1513
+    "statusEffects": 1514
   }
 }
